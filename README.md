@@ -26,4 +26,17 @@ listing:
 ---
 ```
 
+Certain ejs templates will have additional behavior depending on the profile profile. If you are using such a template on a document, turn on the `course-website-ejs` filter in the document metadata.
 
+```qmd
+---
+title: Course 101
+subtitle: My University
+filters:
+  - course-website-ejs
+listing:
+  - id: schedule-listing
+    contents: scheduled-docs_files/schedule.yml
+    template: '_extensions/qmd-lab/course-website/schedule-1.ejs'
+---
+```
