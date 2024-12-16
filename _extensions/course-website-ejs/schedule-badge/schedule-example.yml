@@ -1,8 +1,3 @@
-scheduled-docs:
-  draft-after: "2024-08-24"
-  timezone: "-07:00"
-  debug: true
-  schedule:
     - week: 1
       days:
         - date: "2024-08-23"
